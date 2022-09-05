@@ -13,3 +13,9 @@ body{
     height: 160px;
     background-image: url('images/bg-header.jpg');
 }
+
+#cuerpo{
+    height: 750px;
+    border: 1px solid black;
+    text-align: center;
+}
