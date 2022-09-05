@@ -6,6 +6,7 @@ body{
     height: 1200px;
     margin: 0 auto;   /*centrado de imagen*/
     border: 1px solid black;
+    position: relative;
 }
 
 #encabezado{
@@ -13,7 +14,27 @@ body{
     height: 160px;
     background-image: url('images/bg-header.jpg');
 }
+#encabezado img{
+    margin-left: 20px;
+}
+#encabezado ul{
+    width: 600px;
+    position: absolute;
+    left: 400px;
+    top: 40px;
+}
+#encabezado ul li{
+    width: 100px;
+    float:left;
+    text-align: center;
+    list-style-type: none;
+    color: yellow;
+    font-size: 22px;
 
+}
+#encabezado ul li:hover{
+    border-bottom: 1px solid yellow;
+}
 #cuerpo{
     height: 750px;
     border: 1px solid black;
