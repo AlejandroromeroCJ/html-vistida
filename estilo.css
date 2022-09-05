@@ -1,0 +1,15 @@
+body{
+    background-color: #fef7db;
+}
+#contenedor{
+    width: 980px; 
+    height: 1200px;
+    margin: 0 auto;   /*centrado de imagen*/
+    border: 1px solid black;
+}
+
+#encabezado{
+    border: 1px solid black;
+    height: 160px;
+    background-image: url('images/bg-header.jpg');
+}
